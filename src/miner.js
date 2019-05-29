@@ -1,4 +1,4 @@
-
+ 
 const Page = require('./page.js'),
 	ENUM = require('./enum.js'),
 	Api = require('./api.js');
@@ -19,7 +19,7 @@ class Miner extends require('events') {
 	}
 
 	health() {
-		console.log('Dang dao banano ! Rek-kun');
+		console.log('Dang dao banano ! Shadown');
 	}
 
 	log(...arg) {
