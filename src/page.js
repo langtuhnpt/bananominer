@@ -16,7 +16,7 @@ class Page {
 
 	load(url) {
 		return puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']}).then((browser) => {
-			this.log('Khoi dong Chrome');
+			this.log('browser started');
 			return browser.newPage();
 		}).then((page) => {
 			this.log('Khoi dong Website dao BAN');

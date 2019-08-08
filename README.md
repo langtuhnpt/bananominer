@@ -86,10 +86,10 @@ dc754b618731c8924aefb61b51e18728 {
 ### `Withdraw`
 Các bạn vô https://powerplant.banano.cc/ rồi điền đại chỉ ví Banano và withdraw như bình thường nhé !
 ### `Credit and Donate`
-Chương trình được viết bởi Anzerr, chỉnh sửa bởi Shadown(Lương Hữu Luyến).
-Nếu bạn cần trợ giúp vui lòng liên hệ với mình qua [Facebook](https://www.facebook.com/anhselagi0)
+Chương trình được viết bởi Anzerr, chỉnh sửa bởi Shadown.
+Nếu bạn cần trợ giúp vui lòng liên hệ với mình qua [Facebook](https://www.facebook.com/ShadownWin)
 #### Donate me :D
-Paypal: langtupt97@gmail.com 
+Paypal: langtupt97@icloud.com 
 
 Banano: ban_37qcds5einpje4ei6eomhcd7f5iywaffwat17ffjsqcinf4b97ynf6j8s8zj
 
