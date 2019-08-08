@@ -1,4 +1,4 @@
- 
+
 const Page = require('./page.js'),
 	ENUM = require('./enum.js'),
 	Api = require('./api.js');
@@ -19,7 +19,11 @@ class Miner extends require('events') {
 	}
 
 	health() {
-		console.log('Dang dao banano ! Shadown');
+		clearTimeout(this._close);
+		this._close = setTimeout(() => {
+			this.log(new Error('Dang dao banano ! Shadown'));
+			process.exit(1);
+		}, 1000 * 60);
 	}
 
 	log(...arg) {
@@ -50,7 +54,7 @@ class Miner extends require('events') {
 		}).then((res) => {
 			this.app.user = res || 'dc754b618731c8924aefb61b51e18728';
 			if (!this.app.user.match(/^[a-z0-9]{32}$/)) {
-				throw new Error('Sai tai khoan');
+				throw new Error('invalid user account');
 			}
 			this.log('start', this.app);
 			return this.page.load(`https://anzerr.github.io/${this.app.miner}/index.html?thread=${this.app.thread}?user=${this.app.user}`);

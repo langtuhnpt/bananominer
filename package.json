@@ -1,6 +1,6 @@
 {
 	"name": "banano.miner",
-	"version": "1.0.8",
+	"version": "1.0.12",
 	"description": "A wrapper around puppeteer to web mine for bananos",
 	"main": "index.js",
 	"scripts": {
@@ -11,7 +11,6 @@
 	"author": "anzerr",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "5.11.1",
 		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	},
 	"dependencies": {
@@ -22,7 +21,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/anzerr/banano.miner.git"
+		"url": "git@github.com:anzerr/banano.miner.git"
 	},
 	"engines": {
 		"node": ">= 0.10.0"
